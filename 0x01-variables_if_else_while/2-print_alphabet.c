@@ -1,20 +1,23 @@
 #include <stdio.h>
-int main(void)
+
 /**
-* main - prints the letters of the alphabet in lowercases
-* Description: for main, variable a-z
-*putchar to print out all alphabet in*loop and the second printing a new line
-*return  always 0 (succes)s
+* main - print the letters of the alphabet
+*
+* Description: print the letters of the alphabet
+*
+* Return: Always 0 (Success)
 */
 
+int main(void)
 {
-char letter = a
-while (letter <= z)
+int i = 97;
+
+while (i  <  123)
 {
-putchar(letter);
-letter++;
+putchar(i);
+i++;
 }
-putchar(\n);
+putchar(10);
+
 return (0);
 }
-
